@@ -1,24 +1,21 @@
-# Mina zkApp: Recursive Zksnarks Calculator
+# Calculator Implemented Using Recursive zkSNARKs
 
-This template uses TypeScript.
+This repository contains a recursive implementation of a calculator using recusrsive zkSNARKs. This Zero-Knowledge Application is implemented
+using O1JS, which is the Zero-Knowledge circuit framework used to develop applications on the Mina Blockchain.
+
+This blog post is an accopanying resource my blog post titled "Recursive zkSNARK Proof as a Private Input - What Is Visible?". The blog post can be found at
+[> illya.sh/blog/recursive-zksnark-proof-as-a-private-input-what-is-visible](https://illya.sh/blog/recursive-zksnark-proof-as-a-private-input-what-is-visible).
 
 ## How to build
 
 ```sh
-npm run build
+npm run build/src/Calculator.ts
 ```
 
-## How to run tests
+## How to run
 
 ```sh
-npm run test
-npm run testw # watch mode
-```
-
-## How to run coverage
-
-```sh
-npm run coverage
+node run build/Calculator.ts
 ```
 
 ## License
